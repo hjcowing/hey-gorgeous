@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+    <title>Hey Gorgeous</title>
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-container">
+        <div class="hero-section">
+          <div class="">
+            <h1 class="hero-title"> <br /></h1>
+            <p class="hero-description"></p>
+          </div>
+          <form>
+            <div class="form">
+              <div>
+                <h2>Join Our Newsletter</h2>
+                <p style="color: black">Stay updated about beauty trends!</p>
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Enter your email address"
+                  class="input"
+                />
+              </div>
+              <div>
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  class="input"
+                />
+              </div>
+              <div>
+                <button class="btn" type="submit" class="btn">
+                  Stay Gorgeous
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <div class="services">
+      <p>
+        Where Beauty Meets Miami - Hey Gorgeous, Your All-in-One Glam
+        Destination!
+      </p>
+      <div class="services-container">
+        <h1>Our Services</h1>
+        <div class="services-section">
+          <div class="service">
+            <div>
+              <img
+                src="assets/hair.jpg"
+                alt="Hair"
+              />
+            </div>
+            <div>
+              <h1>Hair</h1>
+              <p>Get ready to transform your locks with our expert hair services. Whether you're in the mood for a stylish haircut, vibrant hair color, or a relaxing wash and blowout, our skilled stylists are here to make your hair dreams a reality. Step into a world of stunning hair transformations and leave our salon feeling gorgeous.
+              </p>
+              <a href="#form-anchor" class="btn">GET GORGEOUS</a>
+            </div>
+          </div>
+          <div class="service" style="flex-direction: row-reverse">
+            <div>
+              <img
+                src="assets/nails.jpg"
+                alt="Nails"
+              />
+            </div>
+            <div>
+              <h1>Nails</h1>
+              <p>Our talented nail technicians will pamper you with a range of options, from classic manicures and pedicures to trendy nail art and luxurious spa treatments. Sit back, relax, and let us take care of your nails, leaving them looking flawless and beautifully polished.
+              </p>
+              <a href="#form-anchor" class="btn">GET GORGEOUS</a>
+            </div>
+          </div>
+          <div class="service">
+            <div>
+              <img
+                src="assets/massage.jpg"
+                alt="massage"
+              />
+            </div>
+            <div>
+              <h1>Massage</h1>
+              <p>Our experienced therapists are masters in various massage techniques, including Swedish, deep tissue, and hot stone massages. Whether you need relaxation, pain relief, or a little bit of both, our massages will leave you feeling refreshed, recharged, and ready for the world.</p>
+              <a href="#form-anchor" class="btn">GET GORGEOUS</a>
+            </div>
+          </div>
+          <div class="service" style="flex-direction: row-reverse">
+            <div>
+              <img
+                src="assets/facial.jpg"
+                alt="facial"
+              />
+            </div>
+            <div>
+              <h1>Facial</h1>
+              <p>Unveil your natural radiance with our soothing facial treatments. Our licensed estheticians will customize a facial experience tailored to your skin's unique needs. From deep cleansing to anti-aging facials, we use premium products to help you achieve a clear, glowing complexion. Get ready to rejuvenate your skin and boost your confidence.
+              </p>
+              <a href="#form-anchor" class="btn">GET GORGEOUS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="about-us">
+      <h1>About Us</h1>
+      <div class="about-us-container">
+        <div class="card">
+          <img src="assets/Hunter.jpeg" alt="Hey Gorgeous" />
+          <a href="https://www.instagram.com/hjcowing/" target="_blank" >Hunter</a>
+          <p> Nail tech</p>
+        </div>
+        <div class="card">
+          <img src="assets/Isabella.jpeg" alt="Hey Gorgeous" />
+          <a href="https://instagram.com/foodi_fi?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Isabelle</a>
+          <p> Hairdress</p>
+        </div>
+        <div class="card">
+          <img src="assets/Rose.jpeg" alt="Hey Gorgeous" />
+          <a href="https://instagram.com/rodoula_karidi" target="_blank" >Rose</a>
+          <p> Masseuse</p>
+        </div>
+        <div class="card">
+          <img src="assets/Léonie.jpeg" alt="Hey Gorgeous" />
+          <a href="https://instagram.com/leonie.legentil?igshid=YTQwZjQ0NmI0OA==" target="_blank" >Léonie</a>
+          <p> Esthetician</p>
+        </div>
+      </div>
+      <div class="form-book" id="form-anchor">
+        <h1>Book an Appointment</h1>
+         <form action="traitement.php" method="POST">
+            <label for="nom">Complete Name :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+            
+            <label for="email">Email Address :</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="tel">Phone Number :</label>
+            <input type="tel" id="tel" name="tel" required><br><br>
+            
+            <label for="date">Date :</label>
+            <input type="date" id="date" name="date" required><br><br>
+            
+            <label for="heure">Time :</label>
+            <input type="time" id="heure" name="heure" required><br><br>
+            
+            <label for="message">Type of Service :</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            
+            <input type="submit" value="Get gorgeous" class="book-btn">
+          </form>
+      </div>
+    </div>
+    <div class="footer">&copy; 2023 Hey Gorgeous. All Rights Reserved.</div>
+  </body>
+</html>
