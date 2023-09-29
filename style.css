@@ -1,0 +1,285 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 22px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-image {
+  background-image: url("../assets/banner.jpg");
+  height: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 350px;
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.hero-section {
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 120px;
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+
+.hero-description {
+  font-size: 60px;
+  color: palevioletred;
+  font-weight: bold;
+  margin: 0;
+}
+
+.form {
+  text-align: center;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 55%;
+  margin-right: 220px;
+  background-color: palevioletred;
+  border-radius: 6px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.form-book {
+  background-color: palevioletred;
+  padding: 30px 300px;
+  border-radius: 6px ;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  left: 0;
+  top: 0;
+  position: absolute;
+  border-radius: 50%;
+  margin: 50px;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 100%;
+}
+
+.services-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.services-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+  margin: auto;
+  padding: 5%;
+  background-color: peachpuff;
+}
+
+.service {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 20px;
+  justify-content: space-between;
+}
+
+.service img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  width: 80%;
+  margin-top: 100px;
+  border: 1px solid palevioletred;
+  margin: auto;
+  padding: 20px;
+}
+
+.about-us-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+}
+
+.card a {
+  text-decoration: none;
+  color: palevioletred;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  width: 100%;
+  background-color: palevioletred;
+}
+
+.btn {
+  background-color: #FFE4D6;
+  border: none;
+  color: #3B3937;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.form-book .book-btn{
+  background-color: #FFE4D6;
+  border: none;
+  color: #3B3937;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 140px;
+  }
+
+.form-book .book-btn:hover {
+  background-color: white;
+  color: palevioletred;
+  border: 1px solid palevioletred;
+  }
+.btn:hover {
+  background-color: white;
+  color: palevioletred;
+  border: 1px solid palevioletred;
+}
+.form h2 {
+  font-size: 24px;
+}
+
+.form p{
+  font-size: 18px;
+}
+
+.services p{
+  margin-top: 4%;
+}
+.service p {
+  font-size: 18px;
+  margin: 0px 25px; 
+  margin-bottom: 20px;
+}
+
+
+.service .btn{
+  background-color: #B0578D;
+  color: peachpuff;
+}
+.service .btn:hover {
+  background-color: peachpuff;
+  color: #B0578D;
+}
+.service h1{
+  margin-bottom: 2px;
+  margin-top: 0px;
+}
+
+.service img {
+  border-radius: 5px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.4);
+}
+
+.about-us-container .card a{
+  margin-top: 15%;
+}
+
+.about-us-container .card a:hover{
+ color: rgb(0, 0, 0);
+}
+
+.form .input{
+  height: 35px;
+  width: 170px;
+}
